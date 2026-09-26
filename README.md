@@ -1,8 +1,7 @@
 # Paid Channel Performance & H2 2025 Budget Recommendation
 **Robinhood growth team · Jan–Jun 2025 · SQL Server + Tableau**
 
-> **Riepilogo (IT):** Analisi della spesa pubblicitaria e delle conversioni di Robinhood nel primo semestre 2025, per capire quali canali meritano più budget nel secondo semestre. La raccomandazione principale: azzerare `display_network` (fermo da metà maggio, quasi nessun ritorno), mantenere un budget di test su `prospecting_video` invece di tagliarlo del tutto, e spostare risorse verso `generic_search` e `retargeting`, i canali con il miglior ritorno per abbonato pagante.
-
+> **Summary (EN):** Analysis of Robinhood's ad spend and conversions in the first half of 2025, to understand which channels deserve more budget in the second half. The main recommendation: cut `display_network` to zero (it stopped running in mid-May, with almost no return), keep a test budget on `prospecting_video` instead of cutting it entirely, and shift resources toward `generic_search` and `retargeting`, the channels with the best return per paying subscriber.
 ## 1. Recommendation (read this first)
 
 | Campaign | H1 spend | H1 ROAS (90d) | Cost / paying sub | Suggested action |
@@ -72,13 +71,13 @@ dim_date ──< fact_ad_spend_daily >── dim_campaign ──< fact_signups >
 ├── README.md
 ├── data/                 raw CSVs (unchanged) + column dictionary
 ├── sql/                  full build script + section-by-section README
-├── outputs/              exported metric tables (CSV) + chart images
-└── dashboard/            Tableau .twbx, PDF export, and PNG screenshot
+├── outputs/              exported metric tables (CSV) 
+└── dashboard/            Tableau .twbx, PPT export, and PNG screenshot
 ```
 
 ## 9. How to reproduce
 
 1. Import `data/ad_spend.csv` and `data/signups.csv` as `dbo.raw_ad_spend` and `dbo.raw_signups` in SQL Server (no primary key on `raw_ad_spend`; primary key on `user_id` only for `raw_signups`).
-2. Run `sql/robinhood_marketing_analysis_tsql.sql` (Sections 1–2), then `sql/robinhood_part2_remaining_build.sql`, section by section — see `sql/README.md` for checkpoints.
+2. Run `sql/Robinhood Analysis_Part1` (Sections 1–2), then `sql/Robinhood Analysis_Part2`, section by section — see `sql/README.md` for checkpoints.
 3. Export the analysis views listed at the end of the build script into `outputs/`.
-4. Open `dashboard/robinhood_dashboard.twbx` in [Tableau Reader](https://www.tableau.com/products/reader) (free) for the interactive version, or view `dashboard/robinhood_dashboard.pdf` / the PNG above for a static snapshot.
+4. Open `dashboard/Robinhood Tableau File.twb` in [Tableau Reader](https://www.tableau.com/products/reader) (free) for the interactive version, or view `dashboard/Robinhood_dashboard` / the PNG above for a static snapshot.
