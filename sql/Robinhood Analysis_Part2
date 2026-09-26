@@ -1,12 +1,11 @@
 /* =====================================================================
    ROBINHOOD ANALYSIS - PART 2: build the correct star schema + views
-   Run this AFTER dropping the old mismatched objects below.
-   This picks up from where robinhood_marketing_analysis_tsql.sql leaves off
+   This picks up from where Robinhood Analysis_Part1 leaves off
    (Section 2 clean views through Section 8 budget model).
    ===================================================================== */
 
 -- ---------------------------------------------------------------------
--- STEP 0: drop the OLD objects from the earlier script version
+-- STEP 1: drop the OLD objects from the earlier script version
 -- (the ones with no "vw_" prefix, visible in your screenshot)
 -- ---------------------------------------------------------------------
 DROP VIEW IF EXISTS dbo.budget_scenario;
