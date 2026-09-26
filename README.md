@@ -16,8 +16,6 @@
 
 **Live dashboard:** `dashboard/robinhood_dashboard` (interactive `.twbx` also included — open with the free [Tableau Reader](https://www.tableau.com/products/reader)).
 
-dashboard/robinhood_dashboard.png 
-
 <img width="2940" height="1846" alt="image" src="https://github.com/user-attachments/assets/80830793-cffb-41cf-97b9-b086bc8b5972" />
 
 
@@ -27,13 +25,13 @@ The CMO is setting the H2 2025 budget. Which paid channels are actually worth th
 ## 3. Key findings
 
 **1. Cheapest per signup is not cheapest per paying subscriber.**
-`prospecting_video` ($5.23/signup) and `retargeting` ($5.27/signup) cost almost the same to acquire a signup — but `prospecting_video` costs **$159.23 per paying subscriber, about 5.1× more** than retargeting's $31.07. Judging channels by signup volume alone would rank them as near-equal; judging by paying customers separates them completely.
+`prospecting_video` ($5.23/signup) and `retargeting` ($5.27/signup) cost almost the same to acquire a signup — but `prospecting_video` costs **$159.23 per paying subscriber, about 5.1× more** than retargeting's $31.07. Judging channels by signup volume alone would rank them as near-equal; judging by paying customers separates them.
 
 **2. Only two of six campaigns paid back their cost within 90 days (ROAS ≥ 1.0):** `brand_search` (1.91) and `retargeting` (1.34). The other four range from 0.03 to 0.47 — meaning on 90-day revenue alone, they hadn't yet earned back what was spent. This is not necessarily "cut everything below 1.0": 90-day revenue understates lifetime value, especially for annual-plan subscribers.
 
 **3. Unpaid signups convert differently than paid.** Referral converts at ~19.9%, organic at ~9.8%, and all paid campaigns pooled at ~11.9%. Notably, `prospecting_video` (3.3%) converts *worse than organic traffic*, despite being a paid channel.
 
-**4. `display_network` stopped running mid-way through the period.** Last spend was 14 May 2025 — 47 days with no spend by the end of the data window. It should not be treated as an ongoing channel in the budget conversation.
+**4. `display_network` stopped running midway through the period.** Last spend was 14 May 2025 — 47 days with no spend by the end of the data window. It should not be treated as an ongoing channel in the budget conversation.
 
 **5. Cost-per-paying-subscriber for `display_network` grew increasingly noisy toward its final weeks**, driven by very small subscriber counts in the denominator — a data-volume caveat, not a real trend.
 
