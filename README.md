@@ -14,7 +14,7 @@
 | prospecting_video | $33,916 | 0.26 | $159.23 | Cut to a small test budget, don't zero out — feeds the retargeting audience |
 | display_network | $16,455 | 0.03 | $2,056.83 | Cut to $0 — stopped itself on 14 May, 8 paying subs total |
 
-**Live dashboard:** `dashboard/robinhood_dashboard.pdf` (interactive `.twbx` also included — open with the free [Tableau Reader](https://www.tableau.com/products/reader)).
+**Live dashboard:** `dashboard/robinhood_dashboard` (interactive `.twbx` also included — open with the free [Tableau Reader](https://www.tableau.com/products/reader)).
 
 ![Dashboard](dashboard/robinhood_dashboard.png)
 
