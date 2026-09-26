@@ -1,0 +1,1047 @@
+date,channel,campaign,impressions,clicks,spend
+2025-01-01,Paid Search,brand_search,1357,73,55.5
+2025-01-01,Paid Search,generic_search,4767,112,186.15
+2025-01-01,Paid Social,prospecting_video,37197,447,222.72
+2025-01-01,Paid Social,retargeting,5456,85,70.38
+2025-01-01,Display,display_network,63070,68,148.4
+2025-01-01,Affiliate,finance_blogs,3872,42,84.17
+2025-01-02,Paid Search,brand_search,1381,51,57.18
+2025-01-02,Paid Search,generic_search,5870,140,224.51
+2025-01-02,Paid Social,prospecting_video,36736,442,221.69
+2025-01-02,Paid Social,retargeting,5615,106,64.88
+2025-01-02,Display,display_network,48035,65,124.7
+2025-01-02,Affiliate,finance_blogs,4841,65,97.22
+2025-01-03,Paid Search,brand_search,1347,55,53.79
+2025-01-03,Paid Search,generic_search,5447,120,198.2
+2025-01-03,Paid Social,prospecting_video,32751,379,189.57
+2025-01-03,Paid Social,retargeting,7075,106,84.79
+2025-01-03,Display,display_network,41379,47,113.62
+2025-01-03,Affiliate,finance_blogs,4287,37,90.49
+2025-01-04,Paid Search,brand_search,1314,67,54.74
+2025-01-04,Paid Search,generic_search,3531,83,145.31
+2025-01-04,Paid Social,prospecting_video,26881,331,153.77
+2025-01-04,Paid Social,retargeting,4775,77,62.54
+2025-01-04,Display,display_network,44747,56,112.16
+2025-01-04,Affiliate,finance_blogs,3436,40,69.29
+2025-01-05,Paid Search,brand_search,1199,63,45.28
+2025-01-05,Paid Search,generic_search,4255,95,182.81
+2025-01-05,Paid Social,prospecting_video,22897,265,140.38
+2025-01-05,Paid Social,retargeting,5833,84,64.16
+2025-01-05,Display,display_network,38589,46,88.65
+2025-01-05,Affiliate,finance_blogs,3444,47,79.89
+2025-01-06,Paid Search,brand_search,1584,63,66.66
+2025-01-06,Paid Search,generic_search,5241,145,204.22
+2025-01-06,Paid Social,prospecting_video,32288,397,185
+2025-01-06,Paid Social,retargeting,6486,108,74.42
+2025-01-06,Display,display_network,54389,64,127.73
+2025-01-06,Affiliate,finance_blogs,3795,39,80
+2025-01-07,Paid Search,brand_search,1385,76,54.11
+2025-01-07,Paid Search,generic_search,5263,124,195
+2025-01-07,Paid Social,prospecting_video,30390,350,199.75
+2025-01-07,Paid Social,retargeting,7576,120,83.71
+2025-01-07,Display,display_network,59211,66,147.26
+2025-01-07,Affiliate,finance_blogs,4346,49,93.84
+2025-01-08,Paid Search,brand_search,1645,61,65.97
+2025-01-08,Paid Search,generic_search,6313,170,233.88
+2025-01-08,Paid Social,prospecting_video,31945,388,180.7
+2025-01-08,Paid Social,retargeting,6649,100,72.87
+2025-01-08,Display,display_network,52753,82,138.8
+2025-01-08,Affiliate,finance_blogs,3788,41,87.92
+2025-01-09,Paid Search,brand_search,1518,74,52.7
+2025-01-09,Paid Search,generic_search,5042,144,183.78
+2025-01-09,Paid Social,prospecting_video,39838,458,223.5
+2025-01-09,Paid Social,retargeting,7763,118,85.42
+2025-01-09,Display,display_network,55083,69,138.96
+2025-01-09,Affiliate,finance_blogs,3841,48,80.49
+2025-01-10,Paid Search,brand_search,1504,62,53.21
+2025-01-10,Paid Search,generic_search,4988,130,188.16
+2025-01-10,Paid Social,prospecting_video,33985,399,190.76
+2025-01-10,Paid Social,retargeting,6848,103,85.61
+2025-01-10,Display,display_network,46960,57,118.33
+2025-01-10,Affiliate,finance_blogs,3617,44,80.45
+2025-01-11,Paid Search,brand_search,1159,53,45.5
+2025-01-11,Paid Search,generic_search,3831,92,168.78
+2025-01-11,Paid Social,prospecting_video,23145,282,151.88
+2025-01-11,Paid Social,retargeting,5801,95,63.89
+2025-01-11,Display,display_network,34385,41,89.51
+2025-01-11,Affiliate,finance_blogs,3725,38,78.67
+2025-01-12,Paid Search,brand_search,1517,77,54.46
+2025-01-12,Paid Search,generic_search,4404,95,186.59
+2025-01-12,Paid Social,prospecting_video,28424,302,160.67
+2025-01-12,Paid Social,retargeting,5119,72,67.11
+2025-01-12,Display,display_network,37421,50,89.68
+2025-01-12,Affiliate,finance_blogs,3391,38,68.73
+2025-01-13,Paid Search,brand_search,1597,74,61.53
+2025-01-13,Paid Search,generic_search,5319,135,236.4
+2025-01-13,Paid Social,prospecting_video,40730,513,226.02
+2025-01-13,Paid Social,retargeting,5489,87,67.16
+2025-01-13,Display,display_network,58485,80,139.95
+2025-01-13,Affiliate,finance_blogs,4560,43,97.78
+2025-01-14,Paid Search,brand_search,1892,75,68.48
+2025-01-14,Paid Search,generic_search,5550,139,213.16
+2025-01-14,Paid Social,prospecting_video,30402,381,179.93
+2025-01-14,Paid Social,retargeting,5669,94,71.99
+2025-01-14,Display,display_network,56221,77,132.37
+2025-01-14,Affiliate,finance_blogs,4286,45,96.04
+2025-01-15,Paid Search,brand_search,1545,68,58.03
+2025-01-15,Paid Search,generic_search,6256,158,228.69
+2025-01-15,Paid Social,prospecting_video,31354,381,200.28
+2025-01-15,Paid Social,retargeting,6407,97,79.24
+2025-01-15,Display,display_network,53896,59,131.07
+2025-01-15,Affiliate,finance_blogs,4068,46,81.75
+2025-01-16,Paid Search,brand_search,1446,66,55.85
+2025-01-16,Paid Search,generic_search,5211,132,226.96
+2025-01-16,Paid Social,prospecting_video,28264,328,188.29
+2025-01-16,Paid Social,retargeting,6977,106,85.91
+2025-01-16,Display,display_network,57572,62,135.02
+2025-01-16,Affiliate,finance_blogs,4794,51,102.81
+2025-01-17,Paid Search,brand_search,1650,82,65.55
+2025-01-17,Paid Search,generic_search,5405,152,204.42
+2025-01-17,Paid Social,prospecting_video,35130,428,212.16
+2025-01-17,Paid Social,retargeting,5719,73,75.96
+2025-01-17,Display,display_network,59322,77,140.03
+2025-01-17,Affiliate,finance_blogs,4190,44,97.21
+2025-01-18,Paid Search,brand_search,1205,62,46.22
+2025-01-18,Paid Search,generic_search,4057,93,155.67
+2025-01-18,Paid Social,prospecting_video,23399,283,148.25
+2025-01-18,Paid Social,retargeting,5754,88,64.16
+2025-01-18,Display,display_network,36723,44,98.47
+2025-01-18,Affiliate,finance_blogs,3116,42,66.34
+2025-01-19,Paid Search,brand_search,1403,58,54.32
+2025-01-19,Paid Search,generic_search,4441,99,187.42
+2025-01-19,Paid Social,prospecting_video,25609,345,160.18
+2025-01-19,Paid Social,retargeting,4967,76,65.1
+2025-01-19,Display,display_network,43803,50,115.64
+2025-01-19,Affiliate,finance_blogs,3503,36,74.95
+2025-01-20,Paid Search,brand_search,1517,65,59.4
+2025-01-20,Paid Search,generic_search,4662,118,203.68
+2025-01-20,Paid Social,prospecting_video,32074,387,192.15
+2025-01-20,Paid Social,retargeting,7604,140,84.83
+2025-01-20,Display,display_network,55980,55,147.93
+2025-01-20,Affiliate,finance_blogs,3278,32,78.23
+2025-01-21,Paid Search,brand_search,1630,60,58.85
+2025-01-21,Paid Search,generic_search,4539,125,182.09
+2025-01-21,Paid Social,prospecting_video,29937,368,191.08
+2025-01-21,Paid Social,retargeting,6184,104,70.23
+2025-01-21,Display,display_network,52860,63,125.01
+2025-01-21,Affiliate,finance_blogs,3798,49,87.32
+2025-01-22,Paid Search,brand_search,1626,62,66.07
+2025-01-22,Paid Search,generic_search,6369,156,234.52
+2025-01-22,Paid Social,prospecting_video,41661,502,229.75
+2025-01-22,Paid Social,retargeting,5846,78,74.32
+2025-01-22,Display,display_network,61428,77,140.99
+2025-01-22,Affiliate,finance_blogs,3812,52,77
+2025-01-23,Paid Search,brand_search,1290,58,51.64
+2025-01-23,Paid Search,generic_search,5230,130,224.1
+2025-01-23,Paid Social,prospecting_video,29081,343,174.62
+2025-01-23,Paid Social,retargeting,6485,117,81.48
+2025-01-23,Display,display_network,54367,61,145.71
+2025-01-23,Affiliate,finance_blogs,4516,53,92.26
+2025-01-24,Paid Search,brand_search,1414,67,51.98
+2025-01-24,Paid Search,generic_search,4942,113,193.35
+2025-01-24,Paid Social,prospecting_video,32272,372,190.28
+2025-01-24,Paid Social,retargeting,6691,100,75.98
+2025-01-24,Display,display_network,45368,65,125.1
+2025-01-24,Affiliate,finance_blogs,4811,53,103.28
+2025-01-25,Paid Search,brand_search,1203,52,47.01
+2025-01-25,Paid Search,generic_search,4843,106,184.73
+2025-01-25,Paid Social,prospecting_video,31389,358,178.6
+2025-01-25,Paid Social,retargeting,4975,74,62.9
+2025-01-25,Display,display_network,43788,47,111.47
+2025-01-25,Affiliate,finance_blogs,2764,24,66.2
+2025-01-26,Paid Search,brand_search,1252,57,48.32
+2025-05-21,Affiliate,finance_blogs,4308,42,96.66
+2025-01-26,Paid Search,generic_search,4176,99,154.08
+2025-01-26,Paid Social,prospecting_video,32134,373,178.53
+2025-01-26,Paid Social,retargeting,5759,72,66.29
+2025-01-26,Display,display_network,36119,42,95.64
+2025-01-26,Affiliate,finance_blogs,3127,28,68.81
+2025-01-27,Paid Search,brand_search,1536,72,59.49
+2025-01-27,Paid Search,generic_search,4978,116,187.62
+2025-01-27,Paid Social,prospecting_video,33999,410,216.74
+2025-01-27,Paid Social,retargeting,5056,75,64.82
+2025-01-27,Display,display_network,51708,51,121.13
+2025-01-27,Affiliate,finance_blogs,4361,40,99.77
+2025-01-28,Paid Search,brand_search,1475,68,61.33
+2025-01-28,Paid Search,generic_search,5202,123,212.63
+2025-01-28,Paid Social,prospecting_video,28696,359,176.36
+2025-01-28,Paid Social,retargeting,6454,107,72.79
+2025-01-28,Display,display_network,54583,66,137.42
+2025-01-28,Affiliate,finance_blogs,3508,42,81.39
+2025-01-29,Paid Search,brand_search,1433,64,51.86
+2025-01-29,Paid Search,generic_search,5680,157,213.12
+2025-01-29,Paid Social,prospecting_video,34727,431,191.22
+2025-01-29,Paid Social,retargeting,6729,109,73.82
+2025-01-29,Display,display_network,45562,55,126.49
+2025-01-29,Affiliate,finance_blogs,4369,50,97.25
+2025-01-30,Paid Search,brand_search,1706,87,62.62
+2025-01-30,Paid Search,generic_search,4236,105,183.07
+2025-01-30,Paid Social,prospecting_video,35334,430,204.53
+2025-01-30,Paid Social,retargeting,5922,94,72.57
+2025-01-30,Display,display_network,47110,51,111.04
+2025-01-30,Affiliate,finance_blogs,4574,41,101.68
+2025-01-31,Paid Search,brand_search,1642,90,64.99
+2025-01-31,Paid Search,generic_search,5651,139,237.21
+2025-01-31,Paid Social,prospecting_video,35254,410,229.78
+2025-01-31,Paid Social,retargeting,7083,129,78.71
+2025-01-31,Display,display_network,56154,81,143.67
+2025-01-31,Affiliate,finance_blogs,4573,43,95.58
+2025-02-01,Paid Search,brand_search,1172,62,45.99
+2025-02-01,Paid Search,generic_search,4775,125,175.16
+2025-02-01,Paid Social,prospecting_video,26124,354,147.35
+2025-02-01,Paid Social,retargeting,5611,103,68.51
+2025-02-01,Display,display_network,47317,61,110.7
+2025-02-01,Affiliate,finance_blogs,3025,32,61.23
+2025-02-02,Paid Search,brand_search,1213,54,50.02
+2025-02-02,Paid Search,generic_search,4266,121,179.3
+2025-02-02,Paid Social,prospecting_video,25564,296,153.32
+2025-02-02,Paid Social,retargeting,5383,72,66.54
+2025-02-02,Display,display_network,46129,54,118.37
+2025-02-02,Affiliate,finance_blogs,3277,42,75.51
+2025-02-03,Paid Search,brand_search,1625,82,57.64
+2025-02-03,Paid Search,generic_search,6344,151,235.96
+2025-02-03,Paid Social,prospecting_video,32229,394,199.17
+2025-02-03,Paid Social,retargeting,6831,104,82.48
+2025-02-03,Display,display_network,56417,64,134.33
+2025-02-03,Affiliate,finance_blogs,5005,66,101.84
+2025-02-04,Paid Search,brand_search,1611,68,56.05
+2025-02-04,Paid Search,generic_search,5186,137,205.03
+2025-02-04,Paid Social,prospecting_video,34449,439,207.78
+2025-02-04,Paid Social,retargeting,5136,90,68.18
+2025-02-04,Display,display_network,54414,69,134.14
+2025-02-04,Affiliate,finance_blogs,4845,56,99.62
+2025-02-05,Paid Search,brand_search,1671,70,63.98
+2025-02-05,Paid Search,generic_search,5454,121,203.21
+2025-02-05,Paid Social,prospecting_video,32779,357,192.01
+2025-02-05,Paid Social,retargeting,6054,108,66.91
+2025-02-05,Display,display_network,59793,58,145.82
+2025-02-05,Affiliate,finance_blogs,3883,52,78.41
+2025-02-06,Paid Search,brand_search,1590,76,62.82
+2025-02-06,Paid Search,generic_search,5210,124,212.83
+2025-02-06,Paid Social,prospecting_video,41713,508,229.44
+2025-02-06,Paid Social,retargeting,5939,94,78.82
+2025-02-06,Display,display_network,52639,44,135.3
+2025-02-06,Affiliate,finance_blogs,3377,32,77.43
+2025-02-07,Paid Search,brand_search,1416,86,58.58
+2025-02-07,Paid Search,generic_search,5669,155,220.81
+2025-02-07,Paid Social,prospecting_video,29599,340,175.65
+2025-02-07,Paid Social,retargeting,6512,112,72.58
+2025-02-07,Display,display_network,55410,65,144.86
+2025-05-28,Paid Search,generic_search,4732,117,184.79
+2025-02-07,Affiliate,finance_blogs,4597,53,99.1
+2025-02-08,Paid Search,brand_search,1184,57,43.58
+2025-02-08,Paid Search,generic_search,4335,100,176.72
+2025-02-08,Paid Social,prospecting_video,25341,302,162.58
+2025-02-08,Paid Social,retargeting,5439,91,63.86
+2025-02-08,Display,display_network,38247,44,93.79
+2025-02-08,Affiliate,finance_blogs,3392,40,74.25
+2025-02-09,Paid Search,brand_search,1248,60,44.35
+2025-02-09,Paid Search,generic_search,4491,110,186.27
+2025-02-09,Paid Social,prospecting_video,23081,283,137.74
+2025-02-09,Paid Social,retargeting,5381,88,59.06
+2025-02-09,Display,display_network,37316,50,99.44
+2025-02-09,Affiliate,finance_blogs,3789,34,82.57
+2025-02-10,Paid Search,brand_search,1552,60,54.48
+2025-02-10,Paid Search,generic_search,4679,121,202.74
+2025-02-10,Paid Social,prospecting_video,30800,388,184
+2025-02-10,Paid Social,retargeting,7182,98,83.17
+2025-02-10,Display,display_network,56682,51,133.95
+2025-02-10,Affiliate,finance_blogs,4867,54,101.82
+2025-02-11,Paid Search,brand_search,1676,68,66.54
+2025-02-11,Paid Search,generic_search,5445,129,217.56
+2025-02-11,Paid Social,prospecting_video,35235,406,222.9
+2025-02-11,Paid Social,retargeting,6327,95,79.09
+2025-02-11,Display,display_network,48141,62,119.08
+2025-02-11,Affiliate,finance_blogs,4149,36,91.49
+2025-02-12,Paid Search,brand_search,1520,65,53
+2025-02-12,Paid Search,generic_search,4481,124,195.45
+2025-02-12,Paid Social,prospecting_video,29388,370,191.21
+2025-02-12,Paid Social,retargeting,6568,105,85.57
+2025-02-12,Display,display_network,46424,52,123.44
+2025-02-12,Affiliate,finance_blogs,3866,32,85.2
+2025-02-13,Paid Search,brand_search,1293,52,51.81
+2025-02-13,Paid Search,generic_search,6146,157,234.51
+2025-02-13,Paid Social,prospecting_video,30536,360,181.18
+2025-02-13,Paid Social,retargeting,6090,97,69.25
+2025-02-13,Display,display_network,47441,60,113.31
+2025-06-19,Paid Search,brand_search,1604,84,58.74
+2025-02-13,Affiliate,finance_blogs,4220,43,96.88
+2025-02-14,Paid Search,brand_search,1702,82,68.97
+2025-02-14,Paid Search,generic_search,5678,159,217.11
+2025-02-14,Paid Social,prospecting_video,35226,431,229.9
+2025-02-14,Paid Social,retargeting,5996,111,67.73
+2025-02-14,Display,display_network,44917,55,123.58
+2025-02-14,Affiliate,finance_blogs,3795,37,89.37
+2025-02-15,Paid Search,brand_search,1312,57,52.37
+2025-02-15,Paid Search,generic_search,4258,106,169.92
+2025-02-15,Paid Social,prospecting_video,29793,362,173.18
+2025-02-15,Paid Social,retargeting,5064,87,61.86
+2025-02-15,Display,display_network,48729,60,115.01
+2025-02-15,Affiliate,finance_blogs,3226,38,77.98
+2025-02-16,Paid Search,brand_search,1217,56,42.26
+2025-02-16,Paid Search,generic_search,3537,104,149.32
+2025-02-16,Paid Social,prospecting_video,30589,356,172.78
+2025-02-16,Paid Social,retargeting,5290,62,67.07
+2025-02-16,Display,display_network,40575,56,110.78
+2025-02-16,Affiliate,finance_blogs,3724,29,81.55
+2025-02-17,Paid Search,brand_search,1546,77,54.96
+2025-02-17,Paid Search,generic_search,5745,150,240.24
+2025-02-17,Paid Social,prospecting_video,33709,388,192.71
+2025-02-17,Paid Social,retargeting,6918,97,79.93
+2025-02-17,Display,display_network,54119,57,145.12
+2025-02-17,Affiliate,finance_blogs,3836,41,86.8
+2025-02-18,Paid Search,brand_search,1618,58,63.82
+2025-02-18,Paid Search,generic_search,5935,144,231.15
+2025-02-18,Paid Social,prospecting_video,29472,340,185.37
+2025-02-18,Paid Social,retargeting,6457,105,83.36
+2025-02-18,Display,display_network,48831,67,128.24
+2025-02-18,Affiliate,finance_blogs,3567,29,83.92
+2025-02-19,Paid Search,brand_search,1581,61,55.61
+2025-02-19,Paid Search,generic_search,5892,140,225.39
+2025-02-19,Paid Social,prospecting_video,28316,335,174.41
+2025-02-19,Paid Social,retargeting,5997,83,70.77
+2025-02-19,Display,display_network,50678,67,123.9
+2025-02-19,Affiliate,finance_blogs,3796,32,76.9
+2025-02-20,Paid Search,brand_search,1865,97,65.76
+2025-02-20,Paid Search,generic_search,5847,150,240.48
+2025-02-20,Paid Social,prospecting_video,31343,366,176.9
+2025-02-20,Paid Social,retargeting,6142,83,73.57
+2025-02-20,Display,display_network,61046,73,143.41
+2025-02-20,Affiliate,finance_blogs,4474,52,95.78
+2025-02-21,Paid Search,brand_search,1597,73,67.21
+2025-02-21,Paid Search,generic_search,4457,110,189.09
+2025-04-14,Display,display_network,55292,63,143.88
+2025-02-21,Paid Social,prospecting_video,33497,404,193.55
+2025-02-21,Paid Social,retargeting,6974,107,81.09
+2025-02-21,Display,display_network,56947,61,139.07
+2025-02-21,Affiliate,finance_blogs,4378,46,95.18
+2025-02-22,Paid Search,brand_search,1402,56,50.11
+2025-02-22,Paid Search,generic_search,3410,87,148.74
+2025-02-22,Paid Social,prospecting_video,23999,305,156.02
+2025-02-22,Paid Social,retargeting,4569,70,54.34
+2025-02-22,Display,display_network,44050,42,101.29
+2025-05-10,Paid Social,prospecting_video,23788,258,140.36
+2025-02-22,Affiliate,finance_blogs,3118,28,64.75
+2025-02-23,Paid Search,brand_search,1221,53,51.22
+2025-02-23,Paid Search,generic_search,3691,93,148.26
+2025-02-23,Paid Social,prospecting_video,29802,388,168.92
+2025-02-23,Paid Social,retargeting,4397,77,57.68
+2025-02-23,Display,display_network,45882,55,105.43
+2025-02-23,Affiliate,finance_blogs,3761,46,80.54
+2025-02-24,Paid Search,brand_search,1859,95,67.2
+2025-02-24,Paid Search,generic_search,4633,123,180.3
+2025-02-24,Paid Social,prospecting_video,33438,374,193.11
+2025-02-24,Paid Social,retargeting,5360,88,66.99
+2025-02-24,Display,display_network,49861,54,121.46
+2025-02-24,Affiliate,finance_blogs,4470,51,93
+2025-02-25,Paid Search,brand_search,1544,77,61.88
+2025-02-25,Paid Search,generic_search,5630,132,226.17
+2025-02-25,Paid Social,prospecting_video,28338,325,184.17
+2025-02-25,Paid Social,retargeting,5872,109,65
+2025-02-25,Display,display_network,45973,47,123.72
+2025-02-25,Affiliate,finance_blogs,4154,54,97.05
+2025-02-26,Paid Search,brand_search,1428,58,51.91
+2025-02-26,Paid Search,generic_search,4959,117,197.64
+2025-02-26,Paid Social,prospecting_video,39507,477,221.57
+2025-02-26,Paid Social,retargeting,5776,101,72.66
+2025-02-26,Display,display_network,43310,57,119.96
+2025-02-26,Affiliate,finance_blogs,4530,51,92.43
+2025-02-27,Paid Search,brand_search,1286,61,54.23
+2025-02-27,Paid Search,generic_search,4412,131,184.93
+2025-02-27,Paid Social,prospecting_video,28447,352,177.51
+2025-02-27,Paid Social,retargeting,7305,114,84.85
+2025-02-27,Display,display_network,50221,58,120.08
+2025-02-27,Affiliate,finance_blogs,4832,62,100.96
+2025-02-28,Paid Search,brand_search,1712,72,64.3
+2025-02-28,Paid Search,generic_search,5265,130,214.84
+2025-02-28,Paid Social,prospecting_video,34688,432,201.39
+2025-02-28,Paid Social,retargeting,7125,132,80.92
+2025-02-28,Display,display_network,57028,69,135.95
+2025-02-28,Affiliate,finance_blogs,3563,42,85.19
+2025-03-01,Paid Search,brand_search,1166,43,45.01
+2025-03-01,Paid Search,generic_search,4582,112,183.32
+2025-03-01,Paid Social,prospecting_video,25251,342,149.27
+2025-03-01,Paid Social,retargeting,4792,89,56.53
+2025-03-01,Display,display_network,39129,50,106.23
+2025-03-01,Affiliate,finance_blogs,3332,50,69.41
+2025-03-02,Paid Search,brand_search,1101,43,43.84
+2025-03-02,Paid Search,generic_search,4189,86,166.21
+2025-03-02,Paid Social,prospecting_video,24079,299,148.83
+2025-03-02,Paid Social,retargeting,4547,71,51.47
+2025-03-02,Display,display_network,42342,57,112.65
+2025-03-02,Affiliate,finance_blogs,2811,27,63.3
+2025-03-03,Paid Search,brand_search,1628,65,64.49
+2025-03-03,Paid Search,generic_search,4685,95,204.31
+2025-03-03,Paid Social,prospecting_video,34413,469,205.28
+2025-03-03,Paid Social,retargeting,6330,99,77.79
+2025-03-03,Display,display_network,56564,73,147.28
+2025-03-03,Affiliate,finance_blogs,4446,55,103.45
+2025-03-04,Paid Search,brand_search,1670,59,60.39
+2025-03-04,Paid Search,generic_search,4991,136,219.42
+2025-03-04,Paid Social,prospecting_video,30614,368,188.47
+2025-03-04,Paid Social,retargeting,5005,78,66.21
+2025-03-04,Display,display_network,58742,72,145.64
+2025-03-04,Affiliate,finance_blogs,3878,40,77.98
+2025-03-05,Paid Search,brand_search,1568,69,55.73
+2025-03-05,Paid Search,generic_search,4859,120,188.51
+2025-03-05,Paid Social,prospecting_video,26592,337,173.15
+2025-03-05,Paid Social,retargeting,6184,81,70.07
+2025-03-05,Display,display_network,58569,72,148.6
+2025-03-05,Affiliate,finance_blogs,3915,50,91.9
+2025-03-06,Paid Search,brand_search,1775,84,67.73
+2025-03-06,Paid Search,generic_search,4353,103,179.26
+2025-03-06,Paid Social,prospecting_video,36339,458,211.93
+2025-03-06,Paid Social,retargeting,6324,84,71.81
+2025-03-06,Display,display_network,57117,79,131.7
+2025-03-06,Affiliate,finance_blogs,5056,62,101.91
+2025-03-07,Paid Search,brand_search,1649,85,60.65
+2025-03-07,Paid Search,generic_search,5190,136,228.59
+2025-03-07,Paid Social,prospecting_video,33620,345,186.6
+2025-03-07,Paid Social,retargeting,5842,95,74.8
+2025-03-07,Display,display_network,48014,66,126.1
+2025-03-07,Affiliate,finance_blogs,3776,23,84.95
+2025-03-08,Paid Search,brand_search,1142,58,41.38
+2025-03-08,Paid Search,generic_search,4412,109,186.66
+2025-03-08,Paid Social,prospecting_video,25681,325,140.54
+2025-03-08,Paid Social,retargeting,3945,62,52.44
+2025-03-08,Display,display_network,44241,60,117.68
+2025-03-08,Affiliate,finance_blogs,3453,40,70.81
+2025-03-09,Paid Search,brand_search,1310,37,49.5
+2025-03-09,Paid Search,generic_search,3899,90,146.79
+2025-03-09,Paid Social,prospecting_video,26742,306,152.75
+2025-03-09,Paid Social,retargeting,5093,97,62.06
+2025-03-09,Display,display_network,43606,43,106.46
+2025-03-09,Affiliate,finance_blogs,2739,34,61.38
+2025-03-10,Paid Search,brand_search,1901,71,68.54
+2025-03-10,Paid Search,generic_search,5387,148,218.23
+2025-03-10,Paid Social,prospecting_video,35529,434,226.39
+2025-03-10,Paid Social,retargeting,7472,131,85.02
+2025-03-10,Display,display_network,54286,57,130.95
+2025-03-10,Affiliate,finance_blogs,4034,40,80.73
+2025-03-11,Paid Search,brand_search,1817,103,68.67
+2025-03-11,Paid Search,generic_search,4789,134,209.11
+2025-03-11,Paid Social,prospecting_video,40766,483,229.65
+2025-03-11,Paid Social,retargeting,6634,99,73.12
+2025-03-11,Display,display_network,54780,73,141.97
+2025-03-11,Affiliate,finance_blogs,3662,58,77.38
+2025-03-12,Paid Search,brand_search,1421,62,57.92
+2025-03-12,Paid Search,generic_search,5067,124,192.19
+2025-03-12,Paid Social,prospecting_video,33744,405,221.04
+2025-03-12,Paid Social,retargeting,6259,92,71.84
+2025-03-12,Display,display_network,57131,61,135.41
+2025-03-12,Affiliate,finance_blogs,3524,35,83.31
+2025-03-13,Paid Search,brand_search,1501,76,51.88
+2025-03-13,Paid Search,generic_search,4885,123,178.77
+2025-03-13,Paid Social,prospecting_video,26311,308,174.4
+2025-03-13,Paid Social,retargeting,6001,99,71.64
+2025-03-13,Display,display_network,54248,60,131.02
+2025-03-13,Affiliate,finance_blogs,4515,68,97.65
+2025-03-14,Paid Search,brand_search,1362,75,56.21
+2025-03-14,Paid Search,generic_search,5162,125,197.17
+2025-03-14,Paid Social,prospecting_video,37059,501,229.16
+2025-03-14,Paid Social,retargeting,6404,96,77.79
+2025-03-14,Display,display_network,58013,94,139.41
+2025-03-14,Affiliate,finance_blogs,3616,36,83.05
+2025-03-15,Paid Search,brand_search,1153,58,48.36
+2025-03-15,Paid Search,generic_search,4747,105,182.97
+2025-03-15,Paid Social,prospecting_video,29297,332,164.32
+2025-03-15,Paid Social,retargeting,5202,72,61.68
+2025-03-15,Display,display_network,42624,54,102.72
+2025-03-15,Affiliate,finance_blogs,3354,25,67.76
+2025-03-16,Paid Search,brand_search,1161,48,42.79
+2025-03-16,Paid Search,generic_search,3774,94,147.86
+2025-03-16,Paid Social,prospecting_video,24014,295,148.77
+2025-03-16,Paid Social,retargeting,5152,91,61.45
+2025-03-16,Display,display_network,44181,51,114.92
+2025-03-16,Affiliate,finance_blogs,3117,32,75.98
+2025-03-17,Paid Search,brand_search,1657,58,61.65
+2025-03-17,Paid Search,generic_search,5555,141,234.87
+2025-03-17,Paid Social,prospecting_video,30469,377,181.42
+2025-03-17,Paid Social,retargeting,5630,90,64.05
+2025-03-17,Display,display_network,53280,67,131.27
+2025-03-17,Affiliate,finance_blogs,4175,50,97.42
+2025-03-18,Paid Search,brand_search,1772,84,64.75
+2025-03-18,Paid Search,generic_search,5398,138,211.97
+2025-03-18,Paid Social,prospecting_video,31087,346,185.79
+2025-03-18,Paid Social,retargeting,5852,92,76.51
+2025-03-18,Display,display_network,58879,65,134.76
+2025-03-18,Affiliate,finance_blogs,4582,47,95.72
+2025-03-19,Paid Search,brand_search,1409,63,53.4
+2025-03-19,Paid Search,generic_search,5271,134,225.62
+2025-03-19,Paid Social,prospecting_video,38094,454,212.3
+2025-03-19,Paid Social,retargeting,5065,79,64.67
+2025-03-19,Display,display_network,60229,70,148.7
+2025-03-19,Affiliate,finance_blogs,3466,33,80.08
+2025-03-20,Paid Search,brand_search,1581,77,56.38
+2025-03-20,Paid Search,generic_search,4739,109,194.15
+2025-03-20,Paid Social,prospecting_video,29964,338,180.28
+2025-03-20,Paid Social,retargeting,6337,96,81.15
+2025-03-20,Display,display_network,56576,72,137.03
+2025-03-20,Affiliate,finance_blogs,3423,30,82.11
+2025-03-21,Paid Search,brand_search,1771,76,68.58
+2025-03-21,Paid Search,generic_search,4371,130,192.43
+2025-03-21,Paid Social,prospecting_video,34379,433,189.99
+2025-03-21,Paid Social,retargeting,6511,105,80.6
+2025-03-21,Display,display_network,49106,56,123.48
+2025-03-21,Affiliate,finance_blogs,4490,38,102.22
+2025-03-22,Paid Search,brand_search,1256,55,45.71
+2025-03-22,Paid Search,generic_search,4425,91,161.2
+2025-03-22,Paid Social,prospecting_video,24809,321,143.61
+2025-03-22,Paid Social,retargeting,4727,62,51.72
+2025-03-22,Display,display_network,33781,48,89.39
+2025-03-22,Affiliate,finance_blogs,3253,38,71.3
+2025-03-23,Paid Search,brand_search,1347,64,48.71
+2025-03-23,Paid Search,generic_search,3741,89,166.04
+2025-03-23,Paid Social,prospecting_video,28817,354,168.99
+2025-03-23,Paid Social,retargeting,4903,76,59.79
+2025-03-23,Display,display_network,34944,36,90.46
+2025-03-23,Affiliate,finance_blogs,3568,46,77.7
+2025-03-24,Paid Search,brand_search,1553,70,65.16
+2025-03-24,Paid Search,generic_search,4713,113,183.22
+2025-03-24,Paid Social,prospecting_video,35867,411,205.11
+2025-03-24,Paid Social,retargeting,7576,115,84.31
+2025-03-24,Display,display_network,50490,70,135.86
+2025-03-24,Affiliate,finance_blogs,4100,39,82.62
+2025-03-25,Paid Search,brand_search,1586,73,57.22
+2025-03-25,Paid Search,generic_search,5535,128,215.35
+2025-03-25,Paid Social,prospecting_video,40033,472,222.74
+2025-03-25,Paid Social,retargeting,6238,110,71.26
+2025-03-25,Display,display_network,46013,60,111.43
+2025-03-25,Affiliate,finance_blogs,3830,42,79.43
+2025-03-26,Paid Search,brand_search,1522,66,54.83
+2025-03-26,Paid Search,generic_search,6077,157,227.67
+2025-03-26,Paid Social,prospecting_video,35799,409,205.93
+2025-03-26,Paid Social,retargeting,5049,91,65.67
+2025-03-26,Display,display_network,47194,64,116.38
+2025-03-26,Affiliate,finance_blogs,3829,41,89.99
+2025-03-27,Paid Search,brand_search,1309,51,52.37
+2025-03-27,Paid Search,generic_search,6215,159,228.88
+2025-03-27,Paid Social,prospecting_video,34059,417,221.81
+2025-03-27,Paid Social,retargeting,6422,93,84.86
+2025-03-27,Display,display_network,49378,44,127.23
+2025-03-27,Affiliate,finance_blogs,3980,36,79.81
+2025-03-28,Paid Search,brand_search,1648,67,59.93
+2025-03-28,Paid Search,generic_search,6345,187,232.13
+2025-03-28,Paid Social,prospecting_video,35640,430,224.89
+2025-03-28,Paid Social,retargeting,6111,119,74.37
+2025-03-28,Display,display_network,53356,64,128.58
+2025-03-28,Affiliate,finance_blogs,3699,43,83.91
+2025-03-29,Paid Search,brand_search,1204,57,48.21
+2025-03-29,Paid Search,generic_search,4223,133,154.6
+2025-03-29,Paid Social,prospecting_video,25447,292,167.44
+2025-03-29,Paid Social,retargeting,4579,80,54.04
+2025-03-29,Display,display_network,48632,54,114.13
+2025-03-29,Affiliate,finance_blogs,3226,32,67.63
+2025-03-30,Paid Search,brand_search,1083,45,43.66
+2025-03-30,Paid Search,generic_search,3568,86,153.13
+2025-03-30,Paid Social,prospecting_video,23635,290,153.17
+2025-03-30,Paid Social,retargeting,5273,98,59.74
+2025-03-30,Display,display_network,46904,42,119.27
+2025-03-30,Affiliate,finance_blogs,3974,39,79.98
+2025-03-31,Paid Search,brand_search,1757,69,67.49
+2025-03-31,Paid Search,generic_search,5097,132,199.41
+2025-03-31,Paid Social,prospecting_video,31115,371,180.88
+2025-03-31,Paid Social,retargeting,5398,80,71.63
+2025-03-31,Display,display_network,43968,53,112.53
+2025-03-31,Affiliate,finance_blogs,4336,53,89.46
+2025-04-01,Paid Search,brand_search,1479,69,53.81
+2025-04-01,Paid Search,generic_search,6303,171,230.3
+2025-04-01,Paid Social,prospecting_video,34306,404,210.35
+2025-04-01,Paid Social,retargeting,6985,107,86.02
+2025-04-01,Display,display_network,55540,75,132.23
+2025-04-01,Affiliate,finance_blogs,4314,47,93.36
+2025-04-02,Paid Search,brand_search,1527,67,62.67
+2025-04-02,Paid Search,generic_search,5204,123,202.83
+2025-04-02,Paid Social,prospecting_video,29435,363,185.9
+2025-04-02,Paid Social,retargeting,5627,79,64.21
+2025-04-02,Display,display_network,41381,50,113.84
+2025-04-02,Affiliate,finance_blogs,4557,49,91.15
+2025-05-21,Paid Social,prospecting_video,34288,431,213.54
+2025-04-03,Paid Search,brand_search,1500,63,52.64
+2025-04-03,Paid Search,generic_search,5155,131,192.06
+2025-04-03,Paid Social,prospecting_video,31976,385,199.33
+2025-04-03,Paid Social,retargeting,6139,110,68.33
+2025-04-03,Display,display_network,43696,60,120.18
+2025-04-03,Affiliate,finance_blogs,3721,37,76.97
+2025-04-04,Paid Search,brand_search,1409,63,58.4
+2025-04-04,Paid Search,generic_search,5541,130,219.6
+2025-04-04,Paid Social,prospecting_video,31001,386,182.39
+2025-04-04,Paid Social,retargeting,7221,113,79.66
+2025-04-04,Display,display_network,60678,72,139.81
+2025-04-04,Affiliate,finance_blogs,4652,44,102.55
+2025-04-05,Paid Search,brand_search,1218,46,49.9
+2025-04-05,Paid Search,generic_search,4312,115,170.98
+2025-04-05,Paid Social,prospecting_video,27587,367,170.53
+2025-04-05,Paid Social,retargeting,5768,101,65.28
+2025-04-05,Display,display_network,41788,50,114.14
+2025-04-05,Affiliate,finance_blogs,2946,33,63.59
+2025-04-06,Paid Search,brand_search,1165,51,46.07
+2025-04-06,Paid Search,generic_search,4582,110,168.35
+2025-04-06,Paid Social,prospecting_video,25021,275,155.26
+2025-04-06,Paid Social,retargeting,4655,92,54.67
+2025-04-06,Display,display_network,38882,42,92.77
+2025-04-06,Affiliate,finance_blogs,3246,31,77.81
+2025-04-07,Paid Search,brand_search,1858,74,65.26
+2025-04-07,Paid Search,generic_search,4620,116,182.29
+2025-04-07,Paid Social,prospecting_video,31651,364,194.35
+2025-04-07,Paid Social,retargeting,6837,100,80.2
+2025-04-07,Display,display_network,48901,46,115.91
+2025-04-07,Affiliate,finance_blogs,3971,39,83.07
+2025-04-08,Paid Search,brand_search,1604,80,64.28
+2025-04-08,Paid Search,generic_search,5904,139,219.98
+2025-04-08,Paid Social,prospecting_video,34147,418,189.83
+2025-04-08,Paid Social,retargeting,7104,122,82.52
+2025-04-08,Display,display_network,58327,73,140
+2025-04-08,Affiliate,finance_blogs,4368,58,95.13
+2025-04-09,Paid Search,brand_search,1480,75,52.59
+2025-04-09,Paid Search,generic_search,5388,133,206.28
+2025-04-09,Paid Social,prospecting_video,38876,485,224.61
+2025-04-09,Paid Social,retargeting,6951,103,76.32
+2025-04-09,Display,display_network,43794,51,110.74
+2025-04-09,Affiliate,finance_blogs,4746,55,103.23
+2025-04-10,Paid Search,brand_search,1250,50,51.05
+2025-04-10,Paid Search,generic_search,5718,139,239.72
+2025-04-10,Paid Social,prospecting_video,39436,475,216.56
+2025-04-10,Paid Social,retargeting,7796,119,85.78
+2025-04-10,Display,display_network,50065,58,122.34
+2025-04-10,Affiliate,finance_blogs,4299,31,96.47
+2025-04-11,Paid Search,brand_search,1361,60,55.05
+2025-04-11,Paid Search,generic_search,5422,132,204.43
+2025-04-11,Paid Social,prospecting_video,35347,382,201.42
+2025-04-11,Paid Social,retargeting,6779,115,77.96
+2025-04-11,Display,display_network,47995,48,121.78
+2025-04-11,Affiliate,finance_blogs,3487,50,76.77
+2025-04-12,Paid Search,brand_search,1213,44,47.18
+2025-04-12,Paid Search,generic_search,3507,89,148
+2025-04-12,Paid Social,prospecting_video,23430,275,154.34
+2025-04-12,Paid Social,retargeting,5575,79,67.72
+2025-04-12,Display,display_network,41143,50,101.77
+2025-04-12,Affiliate,finance_blogs,3216,24,71.72
+2025-04-13,Paid Search,brand_search,1228,47,45.98
+2025-04-13,Paid Search,generic_search,4172,103,156.74
+2025-04-13,Paid Social,prospecting_video,22299,254,147.38
+2025-04-13,Paid Social,retargeting,5027,80,58.62
+2025-04-13,Display,display_network,43872,49,119.01
+2025-04-13,Affiliate,finance_blogs,4108,54,82.35
+2025-04-14,Paid Search,brand_search,1431,68,54.97
+2025-04-14,Paid Search,generic_search,4483,98,184.18
+2025-04-14,Paid Social,prospecting_video,32125,389,187.38
+2025-04-14,Paid Social,retargeting,7290,106,85.76
+2025-04-14,Display,display_network,55292,63,143.88
+2025-04-14,Affiliate,finance_blogs,4329,41,101.49
+2025-04-15,Paid Search,brand_search,1689,91,60.58
+2025-04-15,Paid Search,generic_search,6277,151,239.11
+2025-04-15,Paid Social,prospecting_video,34763,400,227.92
+2025-04-15,Paid Social,retargeting,7615,138,85.86
+2025-04-15,Display,display_network,45853,66,121.33
+2025-04-15,Affiliate,finance_blogs,4608,47,102.39
+2025-04-16,Paid Search,brand_search,1733,74,61.37
+2025-04-16,Paid Search,generic_search,4728,119,188.32
+2025-04-16,Paid Social,prospecting_video,30894,358,172.23
+2025-04-16,Paid Social,retargeting,6551,111,74.62
+2025-04-16,Display,display_network,53349,58,123.35
+2025-04-16,Affiliate,finance_blogs,3782,40,83.38
+2025-04-17,Paid Search,brand_search,1756,66,61.03
+2025-04-17,Paid Search,generic_search,5089,110,207.61
+2025-04-17,Paid Social,prospecting_video,32184,401,205.4
+2025-04-17,Paid Social,retargeting,6487,84,85.61
+2025-04-17,Display,display_network,46525,38,111.82
+2025-04-17,Affiliate,finance_blogs,4458,44,91.13
+2025-04-18,Paid Search,brand_search,1638,72,58.92
+2025-04-18,Paid Search,generic_search,5941,150,226.29
+2025-04-18,Paid Social,prospecting_video,27877,345,180.01
+2025-04-18,Paid Social,retargeting,6321,89,69.72
+2025-04-18,Display,display_network,60592,68,147.01
+2025-04-18,Affiliate,finance_blogs,4437,42,96.26
+2025-04-19,Paid Search,brand_search,1167,47,45.04
+2025-04-19,Paid Search,generic_search,3936,82,162.95
+2025-04-19,Paid Social,prospecting_video,20931,251,138.57
+2025-04-19,Paid Social,retargeting,5477,92,65.55
+2025-04-19,Display,display_network,37150,35,97.12
+2025-04-19,Affiliate,finance_blogs,2843,37,64.19
+2025-04-20,Paid Search,brand_search,1119,44,43.06
+2025-04-20,Paid Search,generic_search,3824,92,168.47
+2025-04-20,Paid Social,prospecting_video,26192,357,143.07
+2025-04-20,Paid Social,retargeting,5770,80,65.16
+2025-04-20,Display,display_network,40363,38,96.89
+2025-04-20,Affiliate,finance_blogs,2869,31,64.05
+2025-04-21,Paid Search,brand_search,1545,69,56.15
+2025-04-21,Paid Search,generic_search,5183,127,222.25
+2025-04-21,Paid Social,prospecting_video,41537,514,229.13
+2025-04-21,Paid Social,retargeting,6515,124,72.9
+2025-04-21,Display,display_network,54987,59,126.54
+2025-04-21,Affiliate,finance_blogs,3406,42,82.4
+2025-04-22,Paid Search,brand_search,1376,61,52.88
+2025-04-22,Paid Search,generic_search,4368,100,189.96
+2025-04-22,Paid Social,prospecting_video,27962,332,186.17
+2025-04-22,Paid Social,retargeting,5920,96,67.8
+2025-04-22,Display,display_network,43616,56,111.14
+2025-04-22,Affiliate,finance_blogs,4470,45,94.19
+2025-04-23,Paid Search,brand_search,1637,67,66.97
+2025-04-23,Paid Search,generic_search,4506,117,195.32
+2025-04-23,Paid Social,prospecting_video,32269,374,186.85
+2025-04-23,Paid Social,retargeting,5973,74,67.04
+2025-04-23,Display,display_network,53572,84,127.73
+2025-04-23,Affiliate,finance_blogs,4239,45,88.55
+2025-04-24,Paid Search,brand_search,1253,66,51.76
+2025-04-24,Paid Search,generic_search,5664,159,207.3
+2025-04-24,Paid Social,prospecting_video,32941,376,212.06
+2025-04-24,Paid Social,retargeting,5900,97,76.42
+2025-04-24,Display,display_network,52625,57,130.89
+2025-04-24,Affiliate,finance_blogs,4009,33,93.43
+2025-04-25,Paid Search,brand_search,1697,82,64.8
+2025-04-25,Paid Search,generic_search,5541,126,227.53
+2025-04-25,Paid Social,prospecting_video,38513,448,215.91
+2025-04-25,Paid Social,retargeting,6457,104,82.83
+2025-04-25,Display,display_network,50946,63,134.46
+2025-04-25,Affiliate,finance_blogs,4189,54,94.39
+2025-04-26,Paid Search,brand_search,1121,41,41.8
+2025-04-26,Paid Search,generic_search,4213,101,171.37
+2025-04-26,Paid Social,prospecting_video,22813,260,141.48
+2025-04-26,Paid Social,retargeting,5224,72,63.53
+2025-04-26,Display,display_network,45518,53,104.79
+2025-04-26,Affiliate,finance_blogs,3535,51,72.75
+2025-04-27,Paid Search,brand_search,1202,59,46.34
+2025-04-27,Paid Search,generic_search,5231,123,192.83
+2025-04-27,Paid Social,prospecting_video,21487,255,141.48
+2025-04-27,Paid Social,retargeting,5242,65,58.94
+2025-04-27,Display,display_network,43670,46,112.17
+2025-04-27,Affiliate,finance_blogs,3857,43,80.45
+2025-04-28,Paid Search,brand_search,1684,80,65.17
+2025-04-28,Paid Search,generic_search,6086,146,236.12
+2025-04-28,Paid Social,prospecting_video,28506,323,179.19
+2025-04-28,Paid Social,retargeting,6628,114,82.32
+2025-04-28,Display,display_network,60307,69,139.49
+2025-04-28,Affiliate,finance_blogs,4494,52,98.47
+2025-04-29,Paid Search,brand_search,1740,70,65.09
+2025-04-29,Paid Search,generic_search,5351,154,229.47
+2025-04-29,Paid Social,prospecting_video,36086,413,216.22
+2025-04-29,Paid Social,retargeting,6843,118,82.26
+2025-04-29,Display,display_network,42005,55,115.54
+2025-04-29,Affiliate,finance_blogs,4053,50,81.13
+2025-04-30,Paid Search,brand_search,1950,100,68.45
+2025-04-30,Paid Search,generic_search,5850,146,238.08
+2025-04-30,Paid Social,prospecting_video,36484,411,217.74
+2025-04-30,Paid Social,retargeting,6413,101,84.07
+2025-04-30,Display,display_network,46650,41,121.48
+2025-04-30,Affiliate,finance_blogs,4102,43,82.1
+2025-05-01,Paid Search,brand_search,1645,73,59.77
+2025-05-01,Paid Search,generic_search,5422,132,210.16
+2025-05-01,Paid Social,prospecting_video,39922,440,227.74
+2025-05-01,Paid Social,retargeting,5752,91,76.12
+2025-05-01,Display,display_network,45029,55,112.44
+2025-05-01,Affiliate,finance_blogs,4398,51,99.75
+2025-05-02,Paid Search,brand_search,1853,83,64.29
+2025-05-02,Paid Search,generic_search,5357,128,234.38
+2025-05-02,Paid Social,prospecting_video,31609,359,186.24
+2025-05-02,Paid Social,retargeting,6326,100,83.13
+2025-05-02,Display,display_network,42852,44,117.77
+2025-05-02,Affiliate,finance_blogs,3774,41,78.34
+2025-05-03,Paid Search,brand_search,1248,63,52.37
+2025-05-03,Paid Search,generic_search,3448,91,148.28
+2025-05-03,Paid Social,prospecting_video,26726,321,162.77
+2025-05-03,Paid Social,retargeting,4427,75,55.99
+2025-05-03,Display,display_network,49799,50,113.46
+2025-05-03,Affiliate,finance_blogs,2907,33,70.9
+2025-05-04,Paid Search,brand_search,1307,58,51.77
+2025-05-04,Paid Search,generic_search,4259,105,180.22
+2025-05-04,Paid Social,prospecting_video,28537,362,164.98
+2025-05-04,Paid Social,retargeting,6103,83,68.91
+2025-05-04,Display,display_network,40090,50,111.31
+2025-05-04,Affiliate,finance_blogs,3119,41,70.9
+2025-05-05,Paid Search,brand_search,1568,78,57.9
+2025-05-05,Paid Search,generic_search,5239,134,226.89
+2025-05-05,Paid Social,prospecting_video,32456,407,179.82
+2025-05-05,Paid Social,retargeting,5826,94,72.56
+2025-05-05,Display,display_network,51191,59,117.26
+2025-05-05,Affiliate,finance_blogs,4002,47,85.57
+2025-05-06,Paid Search,brand_search,1568,65,57.69
+2025-05-06,Paid Search,generic_search,4868,111,193.34
+2025-05-06,Paid Social,prospecting_video,28205,329,178.61
+2025-05-06,Paid Social,retargeting,6699,93,85.62
+2025-05-06,Display,display_network,55326,67,126.34
+2025-05-06,Affiliate,finance_blogs,3824,44,87.01
+2025-05-07,Paid Search,brand_search,1668,74,60.37
+2025-05-07,Paid Search,generic_search,5799,147,233.01
+2025-05-07,Paid Social,prospecting_video,30755,387,194.46
+2025-05-07,Paid Social,retargeting,6896,110,81.78
+2025-05-07,Display,display_network,51046,69,132.96
+2025-05-07,Affiliate,finance_blogs,4508,44,99.18
+2025-05-08,Paid Search,brand_search,1565,70,57.86
+2025-05-08,Paid Search,generic_search,4890,117,193.41
+2025-05-08,Paid Social,prospecting_video,33373,398,186.96
+2025-05-08,Paid Social,retargeting,7044,106,77.6
+2025-05-08,Display,display_network,49333,48,124.64
+2025-05-08,Affiliate,finance_blogs,3871,50,85.58
+2025-05-09,Paid Search,brand_search,1593,82,57.57
+2025-05-09,Paid Search,generic_search,5046,124,201.69
+2025-05-09,Paid Social,prospecting_video,29401,372,189.63
+2025-05-09,Paid Social,retargeting,7303,123,80.56
+2025-05-09,Display,display_network,49995,68,120.87
+2025-05-09,Affiliate,finance_blogs,4409,50,93.64
+2025-05-10,Paid Search,brand_search,1161,52,43.29
+2025-05-10,Paid Search,generic_search,4189,99,180.36
+2025-05-10,Paid Social,prospecting_video,23788,258,140.36
+2025-05-10,Paid Social,retargeting,5199,83,59.68
+2025-05-10,Display,display_network,32933,45,88.65
+2025-05-10,Affiliate,finance_blogs,3726,47,81.47
+2025-05-11,Paid Search,brand_search,1073,48,45.18
+2025-05-11,Paid Search,generic_search,4849,110,179.53
+2025-05-11,Paid Social,prospecting_video,22406,286,144.48
+2025-05-11,Paid Social,retargeting,5409,86,64.76
+2025-05-11,Display,display_network,44461,54,107.03
+2025-05-11,Affiliate,finance_blogs,3093,31,68.71
+2025-05-12,Paid Search,brand_search,1751,80,61.96
+2025-05-12,Paid Search,generic_search,5734,130,212.43
+2025-05-12,Paid Social,prospecting_video,34094,450,226.18
+2025-05-12,Paid Social,retargeting,7041,130,77.06
+2025-05-12,Display,display_network,54347,67,129.38
+2025-05-12,Affiliate,finance_blogs,4278,43,89.81
+2025-05-13,Paid Search,brand_search,1415,66,51.05
+2025-05-13,Paid Search,generic_search,4383,107,189.46
+2025-05-13,Paid Social,prospecting_video,40725,514,229.72
+2025-05-13,Paid Social,retargeting,6826,101,84.98
+2025-05-13,Display,display_network,59841,64,141.61
+2025-05-13,Affiliate,finance_blogs,4302,39,100
+2025-05-14,Paid Search,brand_search,1797,73,67.69
+2025-05-14,Paid Search,generic_search,6138,154,239.83
+2025-05-14,Paid Social,prospecting_video,31643,378,181.57
+2025-05-14,Paid Social,retargeting,6288,104,73.27
+2025-05-14,Display,display_network,47781,58,116.07
+2025-05-14,Affiliate,finance_blogs,4667,63,101.19
+2025-05-15,Paid Search,brand_search,1802,78,67.01
+2025-05-15,Paid Search,generic_search,5477,115,214.9
+2025-05-15,Paid Social,prospecting_video,30639,330,191.51
+2025-05-15,Paid Social,retargeting,5749,103,66.36
+2025-05-15,Affiliate,finance_blogs,4697,51,100.5
+2025-05-16,Paid Search,brand_search,1523,78,54.92
+2025-05-16,Paid Search,generic_search,4390,131,193.34
+2025-05-16,Paid Social,prospecting_video,28473,321,184.98
+2025-05-16,Paid Social,retargeting,6837,110,80.46
+2025-05-16,Affiliate,finance_blogs,4317,50,99.01
+2025-05-17,Paid Search,brand_search,1377,66,52.87
+2025-05-17,Paid Search,generic_search,4953,128,180.98
+2025-05-17,Paid Social,prospecting_video,24203,287,155.05
+2025-05-17,Paid Social,retargeting,4334,63,57.11
+2025-05-17,Affiliate,finance_blogs,2819,27,62.3
+2025-05-18,Paid Search,brand_search,1228,65,48.5
+2025-05-18,Paid Search,generic_search,3569,100,157.97
+2025-05-18,Paid Social,prospecting_video,22332,261,145
+2025-05-18,Paid Social,retargeting,5392,79,68.39
+2025-05-18,Affiliate,finance_blogs,3354,36,80.06
+2025-05-19,Paid Search,brand_search,1498,60,61.21
+2025-05-19,Paid Search,generic_search,4616,104,201.85
+2025-05-19,Paid Social,prospecting_video,33441,397,190.25
+2025-05-19,Paid Social,retargeting,7293,122,81.92
+2025-05-19,Affiliate,finance_blogs,3589,49,79.11
+2025-05-20,Paid Search,brand_search,1420,51,59.01
+2025-05-20,Paid Search,generic_search,4937,126,180.54
+2025-05-20,Paid Social,prospecting_video,30989,384,178.7
+2025-05-20,Paid Social,retargeting,6026,110,70.75
+2025-05-20,Affiliate,finance_blogs,4300,33,97.36
+2025-05-21,Paid Search,brand_search,1797,96,64.53
+2025-05-21,Paid Search,generic_search,6105,149,234.01
+2025-05-21,Paid Social,prospecting_video,34288,431,213.54
+2025-05-21,Paid Social,retargeting,5225,97,65.75
+2025-05-21,Affiliate,finance_blogs,4308,42,96.66
+2025-05-22,Paid Search,brand_search,1813,92,65.11
+2025-05-22,Paid Search,generic_search,4890,108,206.64
+2025-05-22,Paid Social,prospecting_video,30596,375,187.91
+2025-05-22,Paid Social,retargeting,6022,93,78.82
+2025-05-22,Affiliate,finance_blogs,4541,55,100.89
+2025-05-23,Paid Search,brand_search,1440,54,54.64
+2025-05-23,Paid Search,generic_search,5880,122,227.33
+2025-05-23,Paid Social,prospecting_video,31548,377,174.38
+2025-05-23,Paid Social,retargeting,5017,91,64.26
+2025-05-23,Affiliate,finance_blogs,3904,36,85.27
+2025-05-24,Paid Search,brand_search,1413,52,53.57
+2025-05-24,Paid Search,generic_search,3425,72,145.96
+2025-05-24,Paid Social,prospecting_video,23168,296,140.99
+2025-05-24,Paid Social,retargeting,5118,100,55.92
+2025-05-24,Affiliate,finance_blogs,2861,35,63.77
+2025-05-25,Paid Search,brand_search,1328,72,53.67
+2025-05-25,Paid Search,generic_search,4241,120,170.25
+2025-05-25,Paid Social,prospecting_video,26260,286,145.9
+2025-05-25,Paid Social,retargeting,5287,86,67.9
+2025-05-25,Affiliate,finance_blogs,3282,33,67.87
+2025-05-26,Paid Search,brand_search,1700,73,60.9
+2025-05-26,Paid Search,generic_search,5864,149,235.9
+2025-05-26,Paid Social,prospecting_video,33751,418,214.58
+2025-05-26,Paid Social,retargeting,6694,120,85.1
+2025-05-26,Affiliate,finance_blogs,3750,48,90.01
+2025-05-27,Paid Search,brand_search,1504,66,62.03
+2025-05-27,Paid Search,generic_search,4963,121,199.01
+2025-05-27,Paid Social,prospecting_video,29093,333,178.91
+2025-05-27,Paid Social,retargeting,6173,89,69.12
+2025-05-27,Affiliate,finance_blogs,4512,41,94.17
+2025-05-28,Paid Search,brand_search,1713,78,66.52
+2025-05-28,Paid Search,generic_search,4732,117,184.79
+2025-05-28,Paid Social,prospecting_video,35817,426,199.16
+2025-05-28,Paid Social,retargeting,6244,101,82.5
+2025-05-28,Affiliate,finance_blogs,4482,50,93.43
+2025-05-29,Paid Search,brand_search,1301,72,53.26
+2025-05-29,Paid Search,generic_search,5272,126,209.15
+2025-05-29,Paid Social,prospecting_video,39020,495,218.03
+2025-05-29,Paid Social,retargeting,6299,107,77.91
+2025-05-29,Affiliate,finance_blogs,3665,43,78.89
+2025-05-30,Paid Search,brand_search,1620,68,61.41
+2025-05-30,Paid Search,generic_search,5161,116,221.7
+2025-05-30,Paid Social,prospecting_video,31769,361,200.24
+2025-05-30,Paid Social,retargeting,5776,84,68.44
+2025-05-30,Affiliate,finance_blogs,4278,54,93.61
+2025-05-31,Paid Search,brand_search,1141,57,41.18
+2025-05-31,Paid Search,generic_search,4064,102,160.18
+2025-05-31,Paid Social,prospecting_video,26031,329,142.81
+2025-05-31,Paid Social,retargeting,4988,101,60.98
+2025-05-31,Affiliate,finance_blogs,3568,57,72.14
+2025-06-01,Paid Search,brand_search,1039,54,42.45
+2025-06-01,Paid Search,generic_search,5101,149,187.85
+2025-06-01,Paid Social,prospecting_video,23987,259,157.91
+2025-06-01,Paid Social,retargeting,5147,80,68.38
+2025-06-01,Affiliate,finance_blogs,3047,38,65.69
+2025-06-02,Paid Search,brand_search,1577,67,57.65
+2025-06-02,Paid Search,generic_search,5675,149,230.6
+2025-06-02,Paid Social,prospecting_video,30243,345,170.42
+2025-06-02,Paid Social,retargeting,5669,97,72.01
+2025-06-02,Affiliate,finance_blogs,3882,36,92.41
+2025-06-03,Paid Search,brand_search,1779,86,67.48
+2025-06-03,Paid Search,generic_search,5375,134,204.14
+2025-06-03,Paid Social,prospecting_video,32435,422,212
+2025-06-03,Paid Social,retargeting,7496,128,82.27
+2025-06-03,Affiliate,finance_blogs,4226,53,87.48
+2025-06-04,Paid Search,brand_search,1462,76,60.59
+2025-06-04,Paid Search,generic_search,4908,123,213.37
+2025-06-04,Paid Social,prospecting_video,28081,341,170.33
+2025-06-04,Paid Social,retargeting,7133,117,78.31
+2025-06-04,Affiliate,finance_blogs,4131,38,92.39
+2025-06-05,Paid Search,brand_search,1619,79,66.18
+2025-06-05,Paid Search,generic_search,5355,113,218.47
+2025-06-05,Paid Social,prospecting_video,34349,433,228.61
+2025-06-05,Paid Social,retargeting,6738,112,79.71
+2025-06-05,Affiliate,finance_blogs,5061,59,101.41
+2025-06-06,Paid Search,brand_search,1431,58,58.32
+2025-06-06,Paid Search,generic_search,5463,141,236.33
+2025-06-06,Paid Social,prospecting_video,27678,303,176.58
+2025-06-06,Paid Social,retargeting,6370,91,77.3
+2025-06-06,Affiliate,finance_blogs,4532,52,97.43
+2025-06-07,Paid Search,brand_search,1096,44,44.65
+2025-06-07,Paid Search,generic_search,3540,92,153.07
+2025-06-07,Paid Social,prospecting_video,27637,325,158.36
+2025-06-07,Paid Social,retargeting,4777,85,60.21
+2025-06-07,Affiliate,finance_blogs,3829,37,78.5
+2025-06-08,Paid Search,brand_search,1524,55,53.72
+2025-06-08,Paid Search,generic_search,3593,97,148.2
+2025-06-08,Paid Social,prospecting_video,27665,330,163.07
+2025-06-08,Paid Social,retargeting,4334,66,54.3
+2025-06-08,Affiliate,finance_blogs,2972,36,67.19
+2025-06-09,Paid Search,brand_search,1584,78,59.44
+2025-06-03,Paid Social,retargeting,7496,128,82.27
+2025-06-09,Paid Search,generic_search,5369,137,208.16
+2025-06-09,Paid Social,prospecting_video,37520,434,209.04
+2025-06-09,Paid Social,retargeting,5245,95,67.29
+2025-06-09,Affiliate,finance_blogs,3992,38,85.61
+2025-06-10,Paid Search,brand_search,1581,62,55.27
+2025-06-10,Paid Search,generic_search,5783,128,216.45
+2025-06-10,Paid Social,prospecting_video,36162,442,201.9
+2025-06-10,Paid Social,retargeting,5709,83,65.54
+2025-06-10,Affiliate,finance_blogs,3939,36,79.97
+2025-06-11,Paid Search,brand_search,1553,61,63.58
+2025-06-11,Paid Search,generic_search,4842,120,188.96
+2025-06-11,Paid Social,prospecting_video,32369,432,215.51
+2025-06-11,Paid Social,retargeting,6482,98,85.63
+2025-06-11,Affiliate,finance_blogs,3431,35,79.26
+2025-06-12,Paid Search,brand_search,1649,69,59.46
+2025-06-12,Paid Search,generic_search,4726,123,198.76
+2025-06-12,Paid Social,prospecting_video,39730,467,225.24
+2025-06-12,Paid Social,retargeting,5947,84,77.55
+2025-06-12,Affiliate,finance_blogs,4503,53,102.92
+2025-06-13,Paid Search,brand_search,1478,69,55.51
+2025-06-13,Paid Search,generic_search,6037,138,231.46
+2025-06-13,Paid Social,prospecting_video,38805,509,225.43
+2025-06-13,Paid Social,retargeting,5835,86,73.14
+2025-06-13,Affiliate,finance_blogs,4083,46,86.4
+2025-06-14,Paid Search,brand_search,1113,60,44
+2025-06-14,Paid Search,generic_search,3453,71,145.9
+2025-06-14,Paid Social,prospecting_video,25981,320,162.81
+2025-06-14,Paid Social,retargeting,5691,97,67.2
+2025-06-14,Affiliate,finance_blogs,3514,35,81.81
+2025-06-15,Paid Search,brand_search,1136,39,47.72
+2025-06-15,Paid Search,generic_search,3699,105,163.6
+2025-06-15,Paid Social,prospecting_video,24920,316,145.11
+2025-06-15,Paid Social,retargeting,4917,76,56.5
+2025-06-15,Affiliate,finance_blogs,3346,43,69.94
+2025-06-16,Paid Search,brand_search,1411,66,52.91
+2025-06-16,Paid Search,generic_search,5304,113,212.31
+2025-06-16,Paid Social,prospecting_video,32820,404,211.35
+2025-06-16,Paid Social,retargeting,5356,79,63.85
+2025-06-16,Affiliate,finance_blogs,4215,37,87.98
+2025-06-17,Paid Search,brand_search,1392,67,53.89
+2025-06-17,Paid Search,generic_search,4606,115,195.68
+2025-06-17,Paid Social,prospecting_video,35150,397,198.58
+2025-06-17,Paid Social,retargeting,5726,103,64.17
+2025-06-17,Affiliate,finance_blogs,3324,39,76.87
+2025-06-18,Paid Search,brand_search,1655,75,62.2
+2025-06-18,Paid Search,generic_search,4518,100,192.93
+2025-06-18,Paid Social,prospecting_video,34418,444,212.59
+2025-06-18,Paid Social,retargeting,5404,97,67.97
+2025-06-18,Affiliate,finance_blogs,3941,54,79.25
+2025-06-19,Paid Search,brand_search,1604,84,58.74
+2025-06-19,Paid Search,generic_search,5259,108,204.4
+2025-06-19,Paid Social,prospecting_video,37611,453,217.32
+2025-06-19,Paid Social,retargeting,5545,73,68.56
+2025-06-19,Affiliate,finance_blogs,3523,40,81.6
+2025-06-20,Paid Search,brand_search,1811,77,65.56
+2025-06-20,Paid Search,generic_search,5468,104,234.55
+2025-06-20,Paid Social,prospecting_video,33645,407,210.35
+2025-06-20,Paid Social,retargeting,5975,85,77.65
+2025-06-20,Affiliate,finance_blogs,4533,68,98.09
+2025-06-21,Paid Search,brand_search,1167,61,41.9
+2025-06-21,Paid Search,generic_search,3977,117,151.92
+2025-06-21,Paid Social,prospecting_video,30920,375,172.53
+2025-06-21,Paid Social,retargeting,5481,87,64.93
+2025-06-21,Affiliate,finance_blogs,3143,36,70.25
+2025-06-22,Paid Search,brand_search,1253,82,51.75
+2025-06-22,Paid Search,generic_search,4378,103,178.99
+2025-06-22,Paid Social,prospecting_video,30048,338,170.19
+2025-06-22,Paid Social,retargeting,5031,81,63.57
+2025-06-22,Affiliate,finance_blogs,2764,26,62.31
+2025-06-23,Paid Search,brand_search,1596,78,58.7
+2025-06-23,Paid Search,generic_search,5620,120,225.85
+2025-06-23,Paid Social,prospecting_video,26719,346,177.06
+2025-06-23,Paid Social,retargeting,6618,101,73.48
+2025-06-23,Affiliate,finance_blogs,3749,38,82.03
+2025-06-24,Paid Search,brand_search,1613,67,58.24
+2025-06-24,Paid Search,generic_search,5928,146,224.36
+2025-06-24,Paid Social,prospecting_video,40517,511,223.78
+2025-06-24,Paid Social,retargeting,6856,102,81.51
+2025-06-24,Affiliate,finance_blogs,3873,54,85.38
+2025-06-25,Paid Search,brand_search,1564,56,63.9
+2025-06-25,Paid Search,generic_search,5673,131,220.04
+2025-06-25,Paid Social,prospecting_video,36847,443,224.91
+2025-06-25,Paid Social,retargeting,7406,120,81.48
+2025-06-25,Affiliate,finance_blogs,4334,42,92.6
+2025-06-26,Paid Search,brand_search,1497,62,59.56
+2025-06-26,Paid Search,generic_search,4456,110,179.91
+2025-06-26,Paid Social,prospecting_video,36626,427,206.84
+2025-06-26,Paid Social,retargeting,6242,84,75.25
+2025-06-26,Affiliate,finance_blogs,4553,37,99.09
+2025-06-27,Paid Search,brand_search,1659,79,66.23
+2025-06-27,Paid Search,generic_search,5849,140,237.34
+2025-06-27,Paid Social,prospecting_video,35453,426,194.46
+2025-06-27,Paid Social,retargeting,6604,118,76.53
+2025-06-27,Affiliate,finance_blogs,4315,37,102.02
+2025-06-28,Paid Search,brand_search,1355,69,54.54
+2025-06-28,Paid Search,generic_search,4261,98,166.65
+2025-06-28,Paid Social,prospecting_video,26736,349,163.95
+2025-06-28,Paid Social,retargeting,5312,78,66.51
+2025-06-28,Affiliate,finance_blogs,3616,43,74.09
+2025-06-29,Paid Search,brand_search,1299,76,51.03
+2025-06-29,Paid Search,generic_search,4289,103,173.43
+2025-06-29,Paid Social,prospecting_video,23775,280,151.07
+2025-06-29,Paid Social,retargeting,4690,58,58.86
+2025-06-29,Affiliate,finance_blogs,3257,31,67.23
+2025-06-30,Paid Search,brand_search,1593,78,59.03
+2025-06-30,Paid Search,generic_search,5651,135,239.81
+2025-06-30,Paid Social,prospecting_video,36129,403,220.05
+2025-06-30,Paid Social,retargeting,5123,65,66.2
+2025-06-30,Affiliate,finance_blogs,3501,45,79.33
