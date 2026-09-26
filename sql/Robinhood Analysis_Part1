@@ -1,4 +1,16 @@
-STEP 1 - VALIDATE (run each query, screenshot the results for the README)
+ROBINHOOD H1 2025 - PAID CHANNEL PERFORMANCE & H2 BUDGET RECOMMENDATION - PART 1
+   
+   Author: Muhammad Saad Mustafa
+
+   HOW TO RUN
+   1. Import the two CSVs as dbo.raw_ad_spend and dbo.raw_signups
+      (Import Flat File wizard; NO primary keys on raw_ad_spend, only user_id on raw_signups).
+   2. Run this file SECTION BY SECTION, top to bottom (select a block, Ctrl+Shift+E).
+      Every CREATE ... needs its own batch, that is why GO separators are used.
+   3. The layers:  RAW tables -> CLEAN views -> MODEL tables (star schema)
+                   -> ANALYSIS views -> BUDGET scenarios.
+
+STEP 1 - VALIDATE 
    --------------------------------------------------------------------- */
  
 -- 1a. Row counts (expect 1,046 and 18,840)
@@ -69,8 +81,6 @@ SELECT MIN(date) AS first_day, MAX(date) AS last_day FROM raw_ad_spend;
 SELECT MIN(signup_date) AS first_signup, MAX(signup_date) AS last_signup FROM raw_signups;
  
 
-USE Marketing_Channel_Performance;
-
   STEP 2 - CLEAN VIEWS (the fixes for what Step 1 found)
    --------------------------------------------------------------------- */
  
@@ -109,8 +119,6 @@ FROM raw_signups;
 -- 2c. Sanity check after cleaning: 1,039 spend rows, total spend ~ $124,886
 SELECT COUNT(*) AS n_rows, ROUND(SUM(spend), 2) AS total_spend FROM ad_spend_clean;
  
-
-USE Marketing_Channel_Performance;
 
 -- STEP 3 - CAMPAIGN METRICS (delivery + outcome + efficiency)
 --KEY LESSON: aggregate each table to campaign level FIRST, then join. Joining daily spend rows straight to individual signups multiplies rows 
