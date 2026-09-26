@@ -1,10 +1,3 @@
-USE MCP_Robinhood_Project;
-
-USE Marketing_Channel_Performance;
-
-SELECT * FROM dbo.raw_ad_spend;
-WHERE Campaign = 'brand_search';
-
 STEP 1 - VALIDATE (run each query, screenshot the results for the README)
    --------------------------------------------------------------------- */
  
