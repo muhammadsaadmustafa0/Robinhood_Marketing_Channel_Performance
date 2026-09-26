@@ -1,14 +1,8 @@
-# SQL build
-
-Dialect: T-SQL (SQL Server 2016 SP1+ / Azure SQL). Tested by first building the
-same logic in SQLite against the real CSVs; all expected values in the code
-comments were verified that way.
-
 ## Run in this order
 
-1. **`robinhood_marketing_analysis_tsql.sql`** — Sections 1–2 only (validation
+1. **`Robinhood Analysis_Part1.sql`** — Sections 1–2 only (validation
    queries, then the two clean views `vw_ad_spend_clean` / `vw_signups_clean`).
-2. **`robinhood_part2_remaining_build.sql`** — drops any earlier draft objects,
+2. **`Robinhood Analysis_Part2.sql`** — drops any earlier draft objects,
    rebuilds the clean views, then builds the star schema
    (`dim_campaign`, `dim_date`, `fact_ad_spend_daily`, `fact_signups`),
    the analysis views (campaign/channel metrics, traffic comparison, monthly
