@@ -16,7 +16,10 @@
 
 **Live dashboard:** `dashboard/robinhood_dashboard` (interactive `.twbx` also included — open with the free [Tableau Reader](https://www.tableau.com/products/reader)).
 
-dashboard/robinhood_dashboard.png
+dashboard/robinhood_dashboard.png 
+
+<img width="2940" height="1846" alt="image" src="https://github.com/user-attachments/assets/80830793-cffb-41cf-97b9-b086bc8b5972" />
+
 
 ## 2. Business question
 The CMO is setting the H2 2025 budget. Which paid channels are actually worth the money, and how should the next six months of spend be split?
