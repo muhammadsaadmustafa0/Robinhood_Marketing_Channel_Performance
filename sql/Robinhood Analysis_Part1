@@ -1,0 +1,192 @@
+USE MCP_Robinhood_Project;
+
+USE Marketing_Channel_Performance;
+
+SELECT * FROM dbo.raw_ad_spend;
+WHERE Campaign = 'brand_search';
+
+STEP 1 - VALIDATE (run each query, screenshot the results for the README)
+   --------------------------------------------------------------------- */
+ 
+-- 1a. Row counts (expect 1,046 and 18,840)
+SELECT 'raw_ad_spend' AS tbl, COUNT(*) AS n_rows FROM raw_ad_spend
+UNION ALL
+SELECT 'raw_signups', COUNT(*) FROM raw_signups;
+ 
+-- 1b. Channel names in each file: they do NOT match ("Paid Search" vs "paid_search")
+SELECT 'ad_spend' AS source, channel, COUNT(*) AS n FROM raw_ad_spend GROUP BY channel
+UNION ALL
+SELECT 'signups', channel, COUNT(*) FROM raw_signups GROUP BY channel
+ORDER BY source, channel;
+
+ 
+-- 1c. Duplicate spend rows (same date + campaign appearing more than once)
+SELECT date, channel, campaign, COUNT(*) AS times_seen
+FROM raw_ad_spend
+GROUP BY date, channel, campaign
+HAVING COUNT(*) > 1
+ORDER BY date;
+ 
+-- 1d. Are the duplicates EXACT copies? (if yes, DISTINCT is a safe fix)
+SELECT 
+    COUNT(*) AS duplicate_groups_total,
+    SUM(CASE WHEN n_versions = 1 THEN 1 ELSE 0 END) AS exact_copies
+FROM (
+    SELECT 
+        date, 
+        campaign,
+        COUNT(*) AS n_rows,
+        COUNT(DISTINCT CONCAT_WS('-', impressions, clicks, spend)) AS n_versions
+    FROM raw_ad_spend
+    GROUP BY date, campaign
+    HAVING COUNT(*) > 1
+) AS sub; -- Added required subquery alias
+ 
+-- 1e. Spend that would be double-counted if we did nothing
+SELECT ROUND(
+         (SELECT SUM(spend) FROM raw_ad_spend)
+       - (SELECT SUM(spend) FROM (SELECT DISTINCT * FROM raw_ad_spend) AS sub), 2
+       ) AS overcounted_spend_usd;
+
+-- 1f. Campaign names present in signups but not in spend (and vice versa)
+SELECT DISTINCT campaign, 'in signups only' AS issue
+FROM raw_signups
+WHERE campaign <> '' AND campaign NOT IN (SELECT campaign FROM raw_ad_spend)
+UNION
+SELECT DISTINCT campaign, 'in spend only'
+FROM raw_ad_spend
+WHERE campaign NOT IN (SELECT campaign FROM raw_signups WHERE campaign <> '');
+-- expect 0 rows = campaign names line up
+ 
+-- 1g. Logic checks: each should return 0
+SELECT
+  SUM(CASE WHEN clicks > impressions THEN 1 ELSE 0 END)                         AS clicks_gt_impressions,
+  SUM(CASE WHEN spend <= 0 THEN 1 ELSE 0 END)                                   AS non_positive_spend
+FROM raw_ad_spend;
+ 
+SELECT
+  SUM(CASE WHEN subscription_start_date IS NOT NULL AND CAST(subscription_start_date AS DATE) < CAST(signup_date AS DATE) THEN 1 ELSE 0 END) AS sub_before_signup,
+  SUM(CASE WHEN ([plan] IS NULL OR LTRIM(RTRIM([plan])) = '') AND revenue_first_90_days > 0 THEN 1 ELSE 0 END) AS revenue_without_plan,
+  SUM(CASE WHEN [plan] IS NOT NULL AND LTRIM(RTRIM([plan])) <> '' AND revenue_first_90_days = 0 THEN 1 ELSE 0 END) AS plan_without_revenue,
+ COUNT(*) - COUNT(DISTINCT user_id) AS duplicate_user_ids
+FROM raw_signups;
+
+-- 1h. Date ranges
+SELECT MIN(date) AS first_day, MAX(date) AS last_day FROM raw_ad_spend;
+SELECT MIN(signup_date) AS first_signup, MAX(signup_date) AS last_signup FROM raw_signups;
+ 
+
+USE Marketing_Channel_Performance;
+
+  STEP 2 - CLEAN VIEWS (the fixes for what Step 1 found)
+   --------------------------------------------------------------------- */
+ 
+-- 2a. Spend: remove exact duplicate rows + build the shared join key
+DROP VIEW IF EXISTS ad_spend_clean;
+CREATE VIEW ad_spend_clean AS
+SELECT DISTINCT
+    date,
+    LOWER(REPLACE(TRIM(channel), ' ', '_')) AS channel_key,   -- 'Paid Search' -> 'paid_search'
+    campaign,
+    impressions,
+    clicks,
+    spend
+FROM raw_ad_spend;
+ 
+-- 2b. Signups: empty strings -> NULL, key, and a paying flag
+DROP VIEW IF EXISTS signups_clean;
+CREATE VIEW signups_clean AS
+SELECT
+    user_id,
+    CAST(signup_date AS DATE)                                     AS signup_date,
+    LOWER(LTRIM(RTRIM(channel)))                                 AS channel_key,
+    NULLIF(campaign, '')                                         AS campaign,
+    CAST(NULLIF(subscription_start_date, '') AS DATE)            AS subscription_start_date,
+    NULLIF([plan], '')                                           AS [plan],
+    revenue_first_90_days                                        AS revenue,
+    CASE WHEN NULLIF([plan], '') IS NOT NULL THEN 1 ELSE 0 END   AS is_paying,
+    CASE WHEN NULLIF(campaign, '') IS NOT NULL THEN 'paid' ELSE 'unpaid' END AS traffic_type,
+    
+    -- Native T-SQL month string (YYYY-MM), faster than FORMAT()
+    CONVERT(VARCHAR(7), CAST(signup_date AS DATE), 120)          AS signup_month 
+FROM raw_signups; 
+
+
+
+-- 2c. Sanity check after cleaning: 1,039 spend rows, total spend ~ $124,886
+SELECT COUNT(*) AS n_rows, ROUND(SUM(spend), 2) AS total_spend FROM ad_spend_clean;
+ 
+
+USE Marketing_Channel_Performance;
+
+-- STEP 3 - CAMPAIGN METRICS (delivery + outcome + efficiency)
+--KEY LESSON: aggregate each table to campaign level FIRST, then join. Joining daily spend rows straight to individual signups multiplies rows 
+--(fan-out) and inflates spend by the number of signups per campaign.
+
+DROP VIEW IF EXISTS campaign_metrics;
+
+CREATE VIEW campaign_metrics AS
+WITH spend AS (
+    SELECT channel_key, campaign,
+           SUM(spend)       AS total_spend,
+           SUM(impressions) AS impressions,
+           SUM(clicks)      AS clicks
+    FROM ad_spend_clean
+    GROUP BY channel_key, campaign
+),
+
+outcomes AS (
+    SELECT channel_key, campaign,
+           COUNT(*)        AS signups,
+           SUM(is_paying)  AS paying_subs,
+           SUM(revenue)    AS revenue_90d
+    FROM signups_clean
+    WHERE campaign IS NOT NULL
+    GROUP BY channel_key, campaign
+)
+
+SELECT
+    s.channel_key,
+    s.campaign,
+    ROUND(s.total_spend, 2)                                   AS spend,
+    s.impressions,
+    s.clicks,
+    ROUND(100.0 * s.clicks / s.impressions, 2)                AS ctr_pct,
+    ROUND(1.0 * s.total_spend / s.clicks, 2)                  AS cpc,
+    o.signups,
+    o.paying_subs,
+    ROUND(100.0 * o.paying_subs / o.signups, 1)               AS signup_to_paid_pct,
+    ROUND(1.0 * s.total_spend / o.signups, 2)                 AS cost_per_signup,
+    ROUND(1.0 * s.total_spend / NULLIF(o.paying_subs, 0), 2)  AS cost_per_paying_sub,
+    ROUND(o.revenue_90d, 2)                                   AS revenue_90d,
+    ROUND(o.revenue_90d / s.total_spend, 2)                   AS roas_90d,
+    ROUND(o.revenue_90d / NULLIF(o.paying_subs, 0), 2)        AS revenue_per_paying_sub
+FROM spend s
+JOIN outcomes o
+  ON  o.channel_key = s.channel_key
+  AND o.campaign    = s.campaign;
+ 
+SELECT * FROM campaign_metrics ORDER BY roas_90d DESC;
+ 
+-- 3b. Reconciliation: joined totals must equal cleaned totals (catches fan-out bugs)
+
+SELECT
+  (SELECT ROUND(SUM(spend), 2) FROM campaign_metrics)               AS spend_in_metrics,
+  (SELECT ROUND(SUM(spend), 2) FROM ad_spend_clean)                 AS spend_in_source,
+  (SELECT SUM(signups) FROM campaign_metrics)                       AS signups_in_metrics,
+  (SELECT COUNT(*) FROM signups_clean WHERE campaign IS NOT NULL)   AS signups_in_source;
+ 
+-- 3c. Channel-level rollup (for the CMO slide)
+SELECT
+    channel_key,
+    ROUND(SUM(spend), 0)                               AS spend,
+    SUM(signups)                                       AS signups,
+    SUM(paying_subs)                                   AS paying_subs,
+    ROUND(SUM(spend) / SUM(signups), 2)                AS cost_per_signup,
+    ROUND(SUM(spend) / SUM(paying_subs), 2)            AS cost_per_paying_sub,
+    ROUND(SUM(revenue_90d) / SUM(spend), 2)            AS roas_90d
+FROM campaign_metrics
+GROUP BY channel_key
+ORDER BY roas_90d DESC;
+ 
+ 
