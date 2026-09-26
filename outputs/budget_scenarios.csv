@@ -1,0 +1,13 @@
+scenario,efficiency_on_extra,h2_spend,projected_paying_subs,blended_cost_per_sub,projected_revenue_90d,projected_roas
+A_trim_display,0.5,124886,1831,68.19,74773,0.599
+B_balanced,0.5,124886,1962,63.66,80188,0.642
+C_efficiency_led,0.5,124886,2009,62.17,82075,0.657
+H1_repeat,0.5,124886,1698,73.55,69444,0.556
+A_trim_display,0.7,124886,1888,66.15,77121,0.618
+B_balanced,0.7,124886,2077,60.12,84981,0.680
+C_efficiency_led,0.7,124886,2174,57.43,88913,0.712
+H1_repeat,0.7,124886,1698,73.55,69444,0.556
+A_trim_display,1.0,124886,1973,63.31,80642,0.646
+B_balanced,1.0,124886,2251,55.49,92169,0.738
+C_efficiency_led,1.0,124886,2423,51.54,99170,0.794
+H1_repeat,1.0,124886,1698,73.55,69444,0.556

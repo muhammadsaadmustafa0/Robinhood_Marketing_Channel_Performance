@@ -1,0 +1,7 @@
+channel_key,campaign,spend,impressions,clicks,ctr_pct,cpc,cpm,signups,signups_per_100_clicks,cost_per_signup,paying_subs,signup_to_paid_pct,cost_per_paying_sub,revenue_90d,roas_90d,net_return_90d,revenue_per_signup,revenue_per_paying_sub,annual_plan_share_pct,avg_days_to_subscribe,share_of_spend_pct,share_of_paying_subs_pct,share_of_revenue_pct,days_with_spend,first_spend_day,last_spend_day
+paid_search,brand_search,10196.99,267763,12089,4.51,0.84,38.08,2177,18.0,4.68,465,21.4,21.93,19470.18,1.91,9273.19,8.94,41.87,29.7,3.3,8.2,27.4,28.0,181,2025-01-01,2025-06-30
+paid_social,retargeting,12987.22,1084880,17245,1.59,0.75,11.97,2465,14.3,5.27,418,17.0,31.07,17411.40,1.34,4424.18,7.06,41.65,30.1,3.3,10.4,24.6,25.1,181,2025-01-01,2025-06-30
+paid_search,generic_search,35939.18,898188,22153,2.47,1.62,40.01,2008,9.1,17.90,432,21.5,83.19,16940.61,0.47,-18998.57,8.44,39.21,25.0,3.2,28.8,25.4,24.4,181,2025-01-01,2025-06-30
+affiliate,finance_blogs,15392.44,706611,7752,1.10,1.99,21.78,864,11.1,17.82,162,18.8,95.02,6316.41,0.41,-9076.03,7.31,38.99,24.1,3.1,12.3,9.5,9.1,181,2025-01-01,2025-06-30
+paid_social,prospecting_video,33915.73,5662300,68085,1.20,0.50,5.99,6484,9.5,5.23,213,3.3,159.23,8765.43,0.26,-25150.30,1.35,41.15,28.2,3.4,27.2,12.5,12.6,181,2025-01-01,2025-06-30
+display,display_network,16454.66,6605031,7844,0.12,2.10,2.49,268,3.4,61.40,8,3.0,2056.83,539.88,0.03,-15914.78,2.01,67.48,75.0,5.3,13.2,0.5,0.8,134,2025-01-01,2025-05-14
