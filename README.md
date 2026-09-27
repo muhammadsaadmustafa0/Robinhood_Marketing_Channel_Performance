@@ -2,6 +2,7 @@
 **Robinhood growth team · Jan–Jun 2025 · SQL Server + Tableau**
 
 > **Summary (EN):** Analysis of Robinhood's ad spend and conversions in the first half of 2025, to understand which channels deserve more budget in the second half. The main recommendation: cut `display_network` to zero (it stopped running in mid-May, with almost no return), keep a test budget on `prospecting_video` instead of cutting it entirely, and shift resources toward `generic_search` and `retargeting`, the channels with the best return per paying subscriber.
+
 ## 1. Recommendation (read this first)
 
 | Campaign | H1 spend | H1 ROAS (90d) | Cost / paying sub | Suggested action |
@@ -16,6 +17,8 @@
 **Live dashboard:** `dashboard/robinhood_dashboard` (interactive `.twbx` also included — open with the free [Tableau Reader](https://www.tableau.com/products/reader)).
 
 <img width="2940" height="1846" alt="image" src="https://github.com/user-attachments/assets/80830793-cffb-41cf-97b9-b086bc8b5972" />
+
+**Presentation** https://gamma.app/docs/Paid-Channel-Performance-H2-2025-Budget-Recommendation-6451167qpkqg5i9 
 
 
 ## 2. Business question
